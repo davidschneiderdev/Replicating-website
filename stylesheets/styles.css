@@ -3,7 +3,7 @@
 }
 
 header {
-    display: block;
+    display: flex;
 }
 
 .nav-bar1 {
@@ -21,8 +21,38 @@ header {
 }
 
 
-/*.email, 
+.email, 
 .email-update, 
 .menu {
-    justify-content: flex-end;
-}*/
+    padding: 12px;
+}
+
+.email h2 {
+    background-color: rgb(196, 192, 192);
+    height: 50px;
+    font-size: 20px;
+    width: 250px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.email-update h2 {
+    background-color: rgb(24, 23, 23);
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    width: 250px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.menu h2 {
+    background-color: rgb(227, 215, 215);
+    color: black;
+    height: 50px;
+    font-size: 20px;
+    width: 250px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 25px;
+}
